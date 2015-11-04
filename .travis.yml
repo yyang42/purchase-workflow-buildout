@@ -29,7 +29,7 @@ script:
   - createdb testly
   - python bootstrap.py
   - bin/buildout
-  - nosetests_odoo parts/purchase-workflow/add-testly
+  - bin/nosetests_odoo parts/purchase-workflow/add-testly
   # --addons-path=~/.odoo/odoo_src/odoo8/addons,. -d testly -i testly
   # - travis_run_tests
 
